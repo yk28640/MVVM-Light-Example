@@ -1,0 +1,63 @@
+﻿<Window x:Class="WpfApp1.WindowBindData"
+
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+
+        Title="WindowBindData" Height="402.727" Width="600.909">
+
+    <Grid>
+
+        <Grid.RowDefinitions>
+
+            <RowDefinition Height="150"/>
+
+            <RowDefinition Height="150"/>
+
+            <RowDefinition Height="138*"/>
+
+        </Grid.RowDefinitions>
+
+
+
+        <StackPanel Grid.Row="0">
+
+            <TextBlock Width="248" Height="24" Text="股票名称:"
+
+        TextWrapping="Wrap"/>
+
+            <ListBox x:Name="listStockName" Width="248" Height="56">
+
+                <ListBoxItem Content="全通教育"/>
+
+                <ListBoxItem Content="大智慧"/>
+
+                <ListBoxItem Content="宝钢股份"/>
+
+                <ListBoxItem Content="浦发银行"/>
+
+                <ListBoxItem Content="工商银行"/>
+
+                <ListBoxItem Content="中国建筑"/>
+
+                <ListBoxItem Content="中国南车"/>
+
+            </ListBox>
+
+            <TextBlock Width="248" Height="24" Text="你所选中的股票名称:" />
+
+            <TextBlock Width="248" Height="24" Text="{Binding ElementName=listStockName, Path=SelectedItem.Content}">
+
+
+
+            </TextBlock>
+
+        </StackPanel>
+
+
+
+    </Grid>
+
+
+
+</Window>

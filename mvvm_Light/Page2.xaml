@@ -1,0 +1,20 @@
+﻿<Page x:Class="mvvm_Light.Page2"
+      xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+      xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+      xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+      xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+      xmlns:local="clr-namespace:mvvm_Light"
+      mc:Ignorable="d" 
+      d:DesignHeight="450" d:DesignWidth="800"
+      Title="Page2">
+    <Page.DataContext>
+        <Binding Path="SecondPage" Source="{StaticResource Locator}"></Binding>
+    </Page.DataContext>
+    <Grid Background="LightGray">
+        <TextBlock HorizontalAlignment="Left" Height="31" Margin="234,159,0,0" TextWrapping="Wrap" Text="{Binding P2Title}" VerticalAlignment="Top" Width="151"/>
+        <Button Content="Button" Command="{Binding ChangeTitleCommand}" HorizontalAlignment="Left" Height="32" Margin="234,206,0,0" VerticalAlignment="Top" Width="85"/>
+        <TextBlock HorizontalAlignment="Left" Height="28" Margin="457,268,0,0" TextWrapping="Wrap" Text="{Binding Text}" VerticalAlignment="Top" Width="193"/>
+        <Label Content="Send Message" HorizontalAlignment="Left" Height="28" Margin="388,263,0,0" VerticalAlignment="Top" Width="52"/>
+
+    </Grid>
+</Page>

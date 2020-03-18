@@ -1,0 +1,17 @@
+﻿<Window x:Class="WpfApp7.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:WpfApp7"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="450" Width="800">
+    <Grid>
+        <Label x:Name="lbScore1" Content="{Binding Score1, Mode=TwoWay}" Width="200" FontSize="15" VerticalContentAlignment="Center" HorizontalContentAlignment="Center"/>
+        <Label x:Name="lbScore2" Content="{Binding Score2, Mode=TwoWay}"  Width="200" FontSize="15" VerticalContentAlignment="Center" HorizontalContentAlignment="Center"/>
+        <Label x:Name="lbScore3" Content="{Binding Score3, Mode=TwoWay}"  Width="200" FontSize="15" VerticalContentAlignment="Center" HorizontalContentAlignment="Center"/>
+        <Label x:Name="lbScore4" Content="{Binding Score4, Mode=TwoWay}"  Width="200" FontSize="15" VerticalContentAlignment="Center" HorizontalContentAlignment="Center"/>
+        <Label x:Name="lbScore5" Content="{Binding Score5, Mode=TwoWay}"  Width="200" FontSize="15" VerticalContentAlignment="Center" HorizontalContentAlignment="Center"/>
+
+    </Grid>
+</Window>
