@@ -1,11 +1,9 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 16
-VisualStudioVersion = 16.0.29209.62
+VisualStudioVersion = 16.0.29318.209
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "mvvm_Light", "mvvm_Light\mvvm_Light.csproj", "{81B44341-34E6-45F4-85D5-8648AA5180F4}"
-EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CustomControlDev", "CustomControlDev\CustomControlDev.csproj", "{216C17A5-DAE1-4847-B6D1-40560F5A8D8A}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CustomControlDev", "CustomControlDev.csproj", "{216C17A5-DAE1-4847-B6D1-40560F5A8D8A}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -13,10 +11,6 @@ Global
 		Release|Any CPU = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
-		{81B44341-34E6-45F4-85D5-8648AA5180F4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{81B44341-34E6-45F4-85D5-8648AA5180F4}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{81B44341-34E6-45F4-85D5-8648AA5180F4}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{81B44341-34E6-45F4-85D5-8648AA5180F4}.Release|Any CPU.Build.0 = Release|Any CPU
 		{216C17A5-DAE1-4847-B6D1-40560F5A8D8A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{216C17A5-DAE1-4847-B6D1-40560F5A8D8A}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{216C17A5-DAE1-4847-B6D1-40560F5A8D8A}.Release|Any CPU.ActiveCfg = Release|Any CPU
@@ -26,6 +20,6 @@ Global
 		HideSolutionNode = FALSE
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
-		SolutionGuid = {0FD93890-DC39-4764-8E83-E97DAEA263BF}
+		SolutionGuid = {3EFCF41F-55F4-4116-A76D-218C5EB2F34B}
 	EndGlobalSection
 EndGlobal
